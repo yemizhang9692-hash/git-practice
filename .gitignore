@@ -1,0 +1,27 @@
+# Git 忽略名单：这里写的文件不会被提交
+# 以 # 开头的是注释
+
+# Windows 缩略图缓存
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 系统临时文件
+~$*
+*.tmp
+
+# 编辑器 / IDE 缓存
+.vscode/
+.idea/
+*.suo
+*.user
+
+# 编译产物（练习阶段先留着，真写代码时放开）
+# *.exe
+# *.o
+# *.obj
+
+# 密钥类文件，绝对不能进仓库
+*.pem
+*.key
+.env
